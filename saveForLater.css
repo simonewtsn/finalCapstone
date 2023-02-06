@@ -1,0 +1,101 @@
+body{
+    background-color:aliceblue
+}
+h1{
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 48px;
+    color: cornflowerblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.gallery1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.img {
+    border: 2px solid #ccc;
+    margin: 5px;
+}
+
+#quote{
+        background: #cae2f9;
+        padding: 10px;
+        text-align: center;
+        padding-left: 40px;
+        padding-right: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+}
+
+nav{
+    float: right;
+    padding: 30px;
+}
+
+nav a {
+    display:inline-flex;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(164, 196, 255);
+    border-radius: 2px;
+    padding:5px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: black;
+}
+
+.contact-us form{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.contact-us input[type=text]{
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.comments form{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.comments input[type=text]{
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: black;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: black;
+}
+textarea {
+    width: 200px;
+    height: 100px;
+    padding-bottom: 12px;
+    box-sizing: border-box;
+    border: 2px solid cornflowerblue;
+    border-radius: 4px;
+    background-color:white;
+    font-size: 14px;
+    resize: none;
+  }

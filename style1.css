@@ -1,0 +1,76 @@
+body{
+    background-color:aliceblue
+}
+h1{
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 48px;
+    color: cornflowerblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.gallery1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.img {
+    border: 2px solid #ccc;
+    margin: 5px;
+}
+
+#quote{
+        background: #cae2f9;
+        padding: 10px;
+        text-align: center;
+        padding-left: 40px;
+        padding-right: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+}
+
+nav{
+    float: right;
+    padding: 30px;
+}
+
+nav a {
+    display:inline-flex;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(164, 196, 255);
+    border-radius: 2px;
+    padding:5px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: black;
+}
+
+.subscribe form{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.subscribe input[type=text]{
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.list{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.weblink{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
